@@ -1,0 +1,18 @@
+Create a class Product
+
+    - productId which could be string or int(decide by user who gives data)
+    - productName hwich is a string
+    - productPrice which is a float value
+
+    Create getter, setters and all relevant special member functions as applicable
+
+Create the following functionalities 
+
+    - A function that returns average Product price from a container of products
+    - A function that returns a container pof all product instances whose price 
+        is above a threshold value provided as an additional argument
+    - A function which launches the following threads
+        - a thread to find and display the details of the product whose ID
+             is passed as a parmaneter from acontainer of instances.
+        - a thread to find and print the details of the first N instances of Product 
+            from a container of instances where N is given as an additional parameter. 
